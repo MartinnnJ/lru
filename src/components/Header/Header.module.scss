@@ -1,0 +1,41 @@
+.header {
+  padding: 1.6rem $container-padding-mobile;
+  margin-top: 3.2rem;
+}
+
+.header__figure {
+  cursor: pointer;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navigation-items {
+  display: none;
+}
+
+@media (min-width: $breakpoint-tablet) {
+
+  .header__navigation-items {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+  }
+
+  .header__menu-container {
+    display: none;
+  }
+
+}
+
+@media (min-width: $breakpoint-desktop) {
+
+  .header {
+    padding: 1.6rem $container-padding-desktop;
+    margin-top: 1.6rem;
+    margin-bottom: 6.5rem;
+  }
+
+}

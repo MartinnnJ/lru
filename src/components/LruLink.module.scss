@@ -1,0 +1,21 @@
+.link {
+  line-height: 2rem;
+  border-radius: $radius;
+  padding: .5rem .75rem;
+}
+
+.link--base {
+  color: $color-secondary;
+}
+
+.link--base:hover {
+  background-color: lighten($color-secondary, 30%);
+}
+
+.link--default {
+  color: $color-default;
+}
+
+.link--default:hover {
+  background-color: lighten($color-default, 75%);
+}

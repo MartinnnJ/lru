@@ -1,0 +1,30 @@
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+
+  height: 32rem;
+  padding: 0 2.4rem;
+  background-color: #F3F4F6;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  border-radius: $radius;
+
+  @media (min-width: $breakpoint-tablet) {
+    max-width: 27rem;
+  }
+}
+
+.tab__figure {
+  padding: 1.6rem;
+  background-color: #DBEAFE;
+  border-radius: $radius;
+}
+
+.tab__title {
+  text-align: center;
+  font-size: 2rem;
+  color: $color-default;
+  font-weight: 600;
+}

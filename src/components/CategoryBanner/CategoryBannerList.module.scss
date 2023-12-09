@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  padding: $container-padding-mobile;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: $category-flex-gap-tablet;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table__header {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.table__header-cell {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: $color-primary;
+  line-height: 1.6rem;
+  padding: 1.2rem 2rem;
+}
+
+.table__body-cell {
+  height: 4.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0 2rem;
+}
+
+.table__body-row--even {
+  background-color: #F3F4F6;
+}
+
+@media (min-width: $breakpoint-tablet) {
+
+  .table__header-cell--wider {
+    width: 62.6vw;
+  }
+
+}

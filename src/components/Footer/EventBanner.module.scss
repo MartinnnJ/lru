@@ -1,0 +1,43 @@
+.event-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: flex-start;
+
+  max-width: 85.4rem;
+  height: 32rem;
+  padding: 2rem 3.2rem;
+  border-radius: $radius;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex: 1;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    padding: 2rem 7.2rem;
+  }
+}
+
+.event-banner__icon {
+  display: inline-block;
+  padding: 1.2rem;
+  margin-right: 1.6rem;
+  border-radius: $radius;
+  background-color: #FFF;
+}
+
+.event-banner__title {
+  font-weight: 600;
+}
+
+.event-banner__location,
+.event-banner__range {
+  color: $color-default;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.event-banner__location {
+  margin-bottom: -.8rem;
+}

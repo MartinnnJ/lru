@@ -1,0 +1,26 @@
+.button {
+  padding: 1rem 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  border-radius: $radius;
+  cursor: pointer;
+}
+
+.button--base {
+  background-color: $color-secondary;
+  color: #FFF;
+}
+
+.button--base:hover {
+  background-color: lighten($color-secondary, 5%);
+}
+
+.button--light {
+  background-color: #DBEAFE;
+  color: $color-secondary;
+}
+
+.button--light:hover {
+  background-color: #DBEAFE;
+}

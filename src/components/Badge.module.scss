@@ -1,0 +1,13 @@
+.badge {
+  display: inline-block; // must have for an inline scrolling
+  height: 2.8rem;
+  padding: 0 .6rem;
+  border-radius: $radius;
+}
+
+.badge__text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: inherit;
+  line-height: 2.8rem;
+}

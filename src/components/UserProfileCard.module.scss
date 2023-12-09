@@ -1,0 +1,29 @@
+.user-profile-card {
+  display: inline-flex;
+  align-items: center;
+  gap: .8rem;
+  pointer-events: none;
+}
+
+.user-profile-card:hover {
+  background-color: darken(#FFF, 3%);
+}
+
+.user-profile-card__avatar {
+  max-width: 2.5rem;
+  border-radius: 50%;
+}
+
+.user-profile-card__text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1F2937;
+}
+
+.rounded {
+  padding: 1rem 1.2rem;
+  border: 1px solid #E5E7EB;
+  border-radius: $radius;
+  pointer-events: all;
+  cursor: pointer;
+}
